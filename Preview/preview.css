@@ -1,20 +1,57 @@
 @keyframes cambioColor {
-    0% { background: #B93F3F; }
-    50% { background: #247A4A; }
-    100% { background: #277FA5; }
+    0% {
+        background: #b93f3f;
+    }
+    50% {
+        background: #247a4a;
+    }
+    100% {
+        background: #277fa5;
+    }
 }
 
 #transition {
-  justify-items: center;
-  height: fit-content;
-  width: fit-content;
-  animation: cambioColor 5s infinite alternate;
-  padding: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    width: fit-content;
+    animation: cambioColor 5s infinite alternate;
+    padding: 20px 10px;
+    border-radius: 20px;
+    margin: 20px;
 }
 
 body {
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  height: 100vh;
+    background-color: #d3e9fc;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100vh;
+}
+input {
+    width: 63%;
+}
+p {
+    display: inline-block;
+    width: fit-content;
+    font-family: sigmar;
+    background-color: #d3e9fc;
+    padding: 2px;
+    border: 5px solid pink;
+    border-radius: 10px;
+    margin: 0px 0px 10px 0px;
+}
+label {
+    color: white;
+}
+button {
+    margin: 10px;
+    background-color: pink;
+}
+#upside-down-face {
+    width: 150px;
+    position: relative;
+    left: 31%;
+    transform: rotate(90deg);
 }
