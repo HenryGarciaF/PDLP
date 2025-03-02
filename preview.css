@@ -61,12 +61,12 @@ button {
   border: none;
   position: absolute;
   bottom: 0%;
-  left: 15%;
+  left: 16%;
   line-height: .5;
 }
 .miniatura {
   position: relative;
-  left: 47%;
+  left: 45%;
   display: inline-block;
   font-size: 6px;
 }
