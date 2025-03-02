@@ -8,6 +8,6 @@ const Leidys = "Leidys";
         paragraph.innerHTML =
             "¡Oops! : [ Parece que intentaste entrar antes de tiempo, la página aún no esta lista (pero estoy trabajando en ella🧑‍💻, espera un poco más😉).";
     } else {
-        paragraph.innerHTML = "🤨 ¡Escríbelo bien! ¡TU NOMBRE!";
+        paragraph.innerHTML = "🤨 ¡Escríbelo bien! ¡ES TU NOMBRE!";
     }
 }

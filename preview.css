@@ -48,7 +48,8 @@ label {
 }
 button {
     margin: 10px;
-    background-color: pink;
+    background-color: #212121;
+    color: white;
 }
 #upside-down-face {
     width: 150px;
