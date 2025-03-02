@@ -54,7 +54,7 @@ button {
 #upside-down-face {
     width: 150px;
     position: relative;
-    left: 31%;
+    left: 27%;
     transform: rotate(90deg);
 }
 #footer {
@@ -67,7 +67,7 @@ button {
 }
 .miniatura {
   position: relative;
-  left: 44%;
+  left: 34%;
   display: inline-block;
   font-size: 6px;
 }
