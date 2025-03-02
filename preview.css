@@ -38,12 +38,13 @@ p {
     font-family: sigmar;
     background-color: #d3e9fc;
     padding: 2px;
-    border: 5px solid pink;
+    border: 5px solid black;
     border-radius: 10px;
     margin: 0px 0px 10px 0px;
 }
 label {
     color: white;
+    font-weight: bold;
 }
 button {
     margin: 10px;
@@ -54,4 +55,18 @@ button {
     position: relative;
     left: 31%;
     transform: rotate(90deg);
+}
+#footer {
+  font-family: smooch sans;
+  border: none;
+  position: absolute;
+  bottom: 0%;
+  left: 11%;
+  line-height: .5;
+}
+.miniatura {
+  position: relative;
+  left: 40%;
+  display: inline-block;
+  font-size: 2px;
 }

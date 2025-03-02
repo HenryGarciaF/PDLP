@@ -1,0 +1,10 @@
+body {
+  background-color: black;
+  color: White;
+  padding: 12px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+li {
+  margin-bottom: 10px;
+}
