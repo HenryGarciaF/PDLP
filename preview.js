@@ -1,3 +1,10 @@
+function pagoPendiente() {
+  const paragraph = document.getElementById("paragraph");
+  paragraph.innerHTML = "💳Fuera se servicio por falta de pago🩸";
+}
+
+
+
 function verification() {
   const password = document.getElementById("password").value;
 const Xada = "Xada";
