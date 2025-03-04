@@ -3,7 +3,7 @@ function verification() {
 const Xada = "Xada"
 const Esteban = "Esteban"
 const Leidys = "Leidys"
-const Henry = "Henry"
+const Henry = "Henry
     if (password === Xada || password === Leidys || password === Esteban) {
         const paragraph = document.getElementById("paragraph");
         paragraph.innerHTML =
@@ -11,6 +11,6 @@ const Henry = "Henry"
     } else if (password === Henry) {
         paragraph.innerHTML = "🤨 ¡Tú no eres yo!";
     } else {
-      paragraph.innerHTML = "AHORA SI?";
+      paragraph.innerHTML = "HASTA QUE NO PAGUES NO VA A FUNCIONAR";
     }
 }
